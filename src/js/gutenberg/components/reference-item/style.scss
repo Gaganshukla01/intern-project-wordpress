@@ -1,0 +1,11 @@
+.authors {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.meta {
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    align-items: flex-end;
+}
